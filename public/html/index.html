@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset="utf-8">
+  <title>XML/JSON parser</title>
+  <script src='js/min/xml2json.min.js'></script>
+  <script src='js/min/json2xml.min.js'></script>
+  <link rel="stylesheet" href="css/site.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="css/site.responsive.680.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="css/site.responsive.480.css" media="screen" title="no title" charset="utf-8">
+</head>
+<body>
+  <section class=main>
+    <div class='container'>
+      <div class=txt-area-container>
+        <h2 class=title>XML</h2>
+        <textarea id=xmlArea type=text rows=50 cols=60> </textarea>
+      </div>
+      <div class='container flex-column buttons space-around' >
+        <div class=btns-to>
+          <input id=btn2json type=button value='to json' onclick=toJson() />
+          <input id=btn2xml  type=button value='to xml ' onclick=toXml()  />
+        </div>
+        <div class='container flex-column btns-dl'>
+          <input id=btnDlJson type=button value='download json' onclick=dlJson() />
+          <input id=btnDlXml  type=button value='download xml ' onclick=dlXml()  />
+        </div>
+      </div>
+      <div class=txt-area-container>
+        <h2 class=title>JSON</h2>
+        <textarea id=jsonArea type=text rows=50 cols=60> </textarea>
+      </div>
+    </div>
+  </section>
+  <script src='js/min/helpers.min.js'></script>
+  <script src='js/min/events.min.js'></script>
+</body>
+</html>

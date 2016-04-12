@@ -1,0 +1,12 @@
+@media screen and (max-width:480px) {
+  html, body {
+    height: 480px;
+  }
+
+  #btnDlXml, #btnDlJson, #btn2xml, #btn2json, #jsonArea, #xmlArea {
+    width:100%;
+    border-radius: 0;
+  }
+
+
+}

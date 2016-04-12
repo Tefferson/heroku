@@ -1,0 +1,46 @@
+@media screen and (max-width:680px) {
+  html, body {
+    height: 680px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .flex-column {
+    display: flex;
+  }
+
+  .buttons {
+    height:180px;
+    width: 100%;
+  }
+
+  .main {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .btns-to {
+    width:100%;
+    text-align: center;
+  }
+
+  .btns-dl {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #btnDlXml, #btnDlJson, #btn2xml, #btn2json {
+    width:40%;
+  }
+
+  #btnDlXml, #btnDlJson {
+    height: 50px;
+  }
+
+  #xmlArea, #jsonArea {
+    height: 260px;
+  }
+
+}
